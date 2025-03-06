@@ -1,4 +1,20 @@
+"""
+Educational Use License
+
+Copyright (c) 2025 UP Student IA Research
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to use,
+copy, modify, and distribute the Software solely for educational and
+non-commercial purposes, subject to the following conditions:
+
+[Include the full text as above or a reference to the LICENSE file]
+
+This license is intended for educational purposes only.
+"""
+
 import argparse
+import mujoco
 from RoboticArmEnv import RoboticArmEnv
 
 from robot_descriptions.loaders.mujoco import load_robot_description
